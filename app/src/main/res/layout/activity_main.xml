@@ -228,7 +228,7 @@
         app:layout_constraintVertical_bias="0.661" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/button_lookup"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:src="@drawable/box_soft_indigo"
@@ -383,5 +383,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.904"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView5" />
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        tools:ignore="UnknownId" />
 </androidx.constraintlayout.widget.ConstraintLayout>
