@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BNCC Apllication</string>
+    <string name="total_cases">Total Cases</string>
+    <string name="_36977">36977</string>
+    <string name="positive">Positive</string>
+    <string name="_45401">45401</string>
+    <string name="recovered">Recovered</string>
+    <string name="_4143">4143</string>
+    <string name="death">Death</string>
+    <string name="get_to_know_more">Get to know more</string>
+    <string name="look_up">Look up</string>
+    <string name="hotline">Hotline</string>
+    <string name="map_details">See details by province all</string>
+    <string name="map_details2">over Indonesia</string>
+    <string name="hotline_details">Check emergency number</string>
+    <string name="to_contact">to contact</string>
+    <string name="arrow"><![CDATA[>]]></string>
+    <string name="indonesia">Indonesia</string>
+    <string name="menu">menu</string>
+    <string name="covid">covid</string>
+    <string name="box_red">box_red</string>
+    <string name="lamp">lamp</string>
+    <string name="map">map</string>
+    <string name="box_indigo">box_indigo</string>
+    <string name="box_green">box_green</string>
+    <string name="box_soft_indigo">box_soft_indigo</string>
+    <string name="box_blue">box_blue</string>
+    <string name="information">information</string>
+    <string name="_85621">85621</string>
+</resources>

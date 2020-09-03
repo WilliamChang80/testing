@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="indigo">#3E419E</color>
+    <color name="teal">#52B2D0</color>
+    <color name="green">#68C166</color>
+    <color name="red">#E76666</color>
+    <color name="lightIndigo">#D2B1B4FD</color>
+</resources>
