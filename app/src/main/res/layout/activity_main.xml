@@ -256,14 +256,15 @@
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/map"
         android:src="@drawable/map"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.0"
-        android:contentDescription="@string/map" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -322,14 +323,15 @@
     <ImageView
         android:layout_width="79dp"
         android:layout_height="79dp"
+        android:layout_marginBottom="140dp"
+        android:contentDescription="@string/lamp"
         android:src="@drawable/lamp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.736"
-        android:contentDescription="@string/lamp" />
+        app:layout_constraintVertical_bias="0.736" />
 
     <TextView
         android:id="@+id/textView9"

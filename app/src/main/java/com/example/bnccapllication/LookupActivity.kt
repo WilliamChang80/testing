@@ -1,27 +1,26 @@
 package com.example.bnccapllication
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
-import android.widget.TextView
+import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
-import org.w3c.dom.Text
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.bnccapllication.adapter.LookupAdapter
+import com.example.bnccapllication.data.LookupData
+import kotlinx.android.synthetic.main.activity_lookup.*
 
 class LookupActivity : AppCompatActivity() {
+
+    private val mockLookupList = mutableListOf(
+        LookupData("DKI Jakarta", 2, 4, 5),
+        LookupData("Banten", 3, 4, 5)
+    )
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lookup)
 
-        val explicitIntentMessage = intent.getStringExtra("Key")
-        val implicitIntentMessage = intent.getStringExtra(Intent.EXTRA_TEXT)
-
-        val textViewExplicitIntent = findViewById<TextView>(R.id.text_view1).apply {
-            text = explicitIntentMessage
-        }
-
-        val textViewImplicitIntent = findViewById<TextView>(R.id.text_view2).apply {
-            text =  implicitIntentMessage.toString()
-        }
+        val lookupAdapter = LookupAdapter(mockLookupList)
+        rvLookup.layoutManager = LinearLayoutManager(this)
+        rvLookup.adapter = lookupAdapter
     }
 }
